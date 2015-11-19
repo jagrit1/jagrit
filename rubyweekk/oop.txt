@@ -1,0 +1,72 @@
+Object oriented programming
+modelling real world objects and storing related data. 
+
+class are used to define objects / blue print for creating objects
+variables
+methods
+instance 
+
+======================
+what is oop
+
+object = state+behaviour
+state=> varibales
+behaviour=> methods
+
+state (property)
+
+==================
+Core OOP concepts
+==================
+Encapsulation
+Stored state of the objects inside the variables and never let ourselves access them directly, allowed acces only using a method#
+(Capsulated variables inside)
+
+
+# (creating getters and setter methods and we can omit the getters and setters) attr_accessor :height, :hair_color, :top_color
+#attr_writer :height, :hair_color, :top_color
+#attr_reader :height, :hair_color, :top_color
+
+just to read and write (get and set), attr_ ..
+variables make object different, methods inside the class, instance vaiables 
+gettes and setters can be replaced as explained above.
+
+
+ # (creating getters and setter methods and we can omit the getters and setters) attr_accessor :height, :hair_color, :top_color
+#attr_writer :height, :hair_color, :top_color
+#attr_reader :height, :hair_color, :top_color
+
+Inheritence
+====================
+In ruby everything is inherited from object
+
+we have to provide the same interfaces as in the parent initialize method
+
+Polymorphism
+=======================
+DIfferent types of the methods working differently between objects
+to_i and to_s
+
+Access control
+=================
+public
+can be called from outside the class, publicly available
+protected
+can be invoked by the class it is in or its sub class
+private
+Can't be called with . notation
+method can be called within the class
+not exposed to any thing outside the class
+
+Modules
+==========================
+Can be used in two ways
+group together various different classes
+(Able to have methods and classes called the same thing in large application)
+
+In ruby, we cant inherit from more than 1 class at a time
+(mixins)
+
+Use modules if we use same methods across different classes
+==========================================================================
+Everything is Ruby is an object

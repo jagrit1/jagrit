@@ -1,0 +1,37 @@
+Bundler
+=================
+Bundler is used to manage external dependencies
+package of bunch of information to go along with the programme we write
+
+look up sementic versioning
+
+research around bundler 
+===============================
+
+Rake
+===========
+a default creation of folder for project, running it and creating different default files in it
+
+mkdir my_project
+cd my_project
+​
+touch README.md Gemfile
+echo "# This is My Project" > README.md
+echo "source 'https://rubygems.org\nruby'2.1.1'\n\ngem 'rspec'" > Gemfile
+​
+mkdir spec
+touch spec/spec_helper.rb
+echo "require 'rspec'" > spec/spec_helper.rb
+​
+bundle install
+​
+git init
+git add .
+git commit -m "Initial Commit"
+​
+hub create
+git push -u origin master
+hub browse
+
+Externalfilles
+====================

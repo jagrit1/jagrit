@@ -1,0 +1,19 @@
+yet another mark-up language/ similar to json
+============================
+
+human readable mark up language to store key-value pairs
+
+it is white space sensitive
+key value pairs and list, YAML
+
+people
+
+  -	fname: Joe
+	emails:
+		-fjalk@gajk
+		-fjkah@ajhk
+
+  -	fname: Joe
+	emails:
+		-fjalk@gajk
+		-fjkah@ajhk

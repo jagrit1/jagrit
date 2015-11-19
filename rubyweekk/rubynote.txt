@@ -1,0 +1,66 @@
+#Notes on Ruby 
+
+Objectives
+
+Use IRB and Pry to execute the ruby commands
+Explain the advantages
+Variables, basic data types, conditionals, and case statements in ruby
+Look up Ruby documentation
+========================================================================================================
+
+What is Rubygem
+gem list
+gem update --system (update the actual ruby gem installation)
+gem update
+gem list
+
+
+Why Ruby?
+===================
+Object oriented programming
+	(There are procedural/structural programming in practice as well called functional planning)
+Is is a pure OO language
+	even integer, static true are objects in Ruby (Complete OO thinking)
+It's dynamic (unlike C or C++, we can change the way the methids work)
+Interpreted language (smaller binary and no need for interpreter)
+it has a nice syntax (derived from a mismass of pearl, python and other programming languages)
+It is easier to learn
+
+ISO/IEC
+30170:2012
+============================
+
+DRY
+(Don't repeat yourself)
+
+
+code tips
+==============
+strings ''
+adding or combining two strings ''+''
+
+#can multiply string by integer but cant multiply integer by string
+ 
+ #puts 'Hello it\'s nice'
+
+ #escape apostrophe (\)
+
+ #(chomp strips off character return (pressing enter after name for instance))
+
+under 6 or over 70
+
+what a case statement does in ruby
+
+push and pop important, destructive variables
+
+Hash{}
+
+my_hash = {1=>'Bob' , 2 => 24}
+
+my_hash[1]
+my_hash[2]
+
+
+def ask_recursively(question)
+
+ask_recursively "Is it sunny outside?"
